@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="icon" href="../imagenes/logo6.ico" type="image/x-icon">
+
+    <title>
+      Ambrosis Web
+  </title>
+  
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand me-auto" href="./index.html"
+          ><img src="./imagenes/logo6.png" class="img-logo ps-0" alt="Logo"
+        /></a>
+        <div
+          class="offcanvas offcanvas-end text-bg-dark"
+          tabindex="-1"
+          id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+              <img src="./imagenes/logo6.png" class="img-logo" alt="Logo2" />
+            </h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-center flex-grow-1 pe-5 me-5">
+              <li class="nav-item">
+                <a
+                  class="nav-link mx-lg-2 text-center active"
+                  aria-current="page"
+                  href="./index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2 text-center" href="./pages/nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2 text-center" href="./pages/servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2 text-center" href="./pages/contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <a href="https://wa.me/54340215533672" class="login-button d-none d-sm-block"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-whatsapp"
+            viewBox="1 0 15 17"
+          >
+            <path
+              d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"
+            />
+          </svg>
+          Whatsapp</a
+        >
+        <button
+          class="navbar-toggler pe-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+    <!-- Fin Navbar -->
+    <!-- Hero section -->
+    <section class="hero-section">
+      <div
+        class="container d-flex align-items-center justify-content-center flex-column">
+        <div class="row">
+          <div class="col-md-6 d-none d-md-block">
+            <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1000" class="card mb-3 border border-dark marcas" style="max-width: 540px">
+              <div class="row">
+                <div class="col-md-4 d-flex align-items-center justify-content-center">
+                  <img id="imagenPrincipal1" src="./imagenes/horarios.jpg" class="img-thumbnail custom-img marcas img-fluid" alt="Placeholder image">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title textcolor1 altfont">¡Contactate con nuestro equipo!</h5>
+                    <p class="card-text altfont">
+                      Para solucionar tus necesidades automotrices, contáctanos y obtén el mejor servicio de la zona.                    </p>
+                    <button type="button" class="btn btn-warning"><a class="text-decoration-none text-dark" href="https://wa.me/54340215533672">Contacto</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1000" class="card mb-3 border border-dark marcas img-fluid" style="max-width: 540px">
+              <div class="row">
+                <div class="col-md-4 d-flex align-items-center justify-content-center">
+                  <img id="imagenPrincipal" src="./imagenes/servicios1.jpg" class="img-thumbnail custom-img marcas " alt="Placeholder image">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title textcolor1 altfont">¡Nuestros servicios!</h5>
+                    <p class="card-text altfont">
+                      ¡Explora nuestros servicios de escaneo, diagnóstico de fallas, optimización de consumo, tren delantero y más!
+                    </p>
+                    <button type="button" class="btn btn-warning"><a class="text-decoration-none text-dark" href="./pages/servicios.html">Servicios</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Modal para imagen CARD -->
+      <div class="modal fade" id="imagenModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-l">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img id="imagenModalImg" src="" class="img-fluid w-100 h-100" alt="Modal Image">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Fin Modal -->
+    </section>
+    <!-- Fin Hero Section -->
+
+    <!-- Div separador -->
+    <div class="container-fluid py-2 text-center marcas" data-aos="zoom-in-down" data-aos-duration="1000" >
+      <div class="row">
+            <div class="col d-none d-md-block d-lg-block"><img src="./imagenes/honda.png" alt="honda" id="honda"></div>
+            <div class="col d-none d-md-block d-lg-block"><img src="./imagenes/audi.png" alt="audi" id="audi"></div>
+            <div class="col"><img src="./imagenes/ford.png" alt="ford" id="ford"></div>
+            <div class="col d-none d-md-block d-lg-block"><img src="./imagenes/mercedes.png" alt="mercedes" id="mercedes"></div>
+            <div class="col d-none d-md-block d-lg-block"><img src="./imagenes/fiat.png" alt="fiat" id="fiat"></div>
+            <div class="col d-none d-md-block d-lg-block"><img src="./imagenes/citroen.png" alt="citroen" id="citroen"></div>
+            <div class="col"><img src="./imagenes/volkswagen.png" alt="volkswagen" id="volkswagen"></div>
+            <div class="col"><img src="./imagenes/chevrolet.png" alt="chevrolet" id="chevrolet"></div>
+      </div>
+    </div>
+    <!-- Fin div separador -->
+
+    <!-- Section2 -->
+    <section class="finalsection">
+      <div class="container-fluid mt-2">
+        <div class="row">
+          <div class="col-md-8" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1000" >
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner border border-dark-subtle border border-2 rounded-4">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="./imagenes/ilustrativa2.jpg" class="d-block w-100 img-fluid" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="./imagenes/ilustrativa4.jpg" class="d-block w-100 img-fluid" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./imagenes/ilustrativa8.jpg" class="d-block w-100 img-fluid" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+    
+          <div class="col-md-4" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1000">
+            <p class="fs-3 altfont textcolor">Somos un taller con más de</p>
+            <p class="fs-1 fw-bold altfont textcolor">20 años de servicio a la comunidad </p>
+            <p class="altfont">Ambrosis Racing es un taller mecánico que abarca todos los aspectos de la mecánica automotriz, ofreciendo soluciones para cualquier tipo de problema que pueda presentar tu vehículo.</p>
+            <p class="d-none d-lg-block altfont" >Nos distinguimos como un taller familiar y de confianza, que ha crecido desde sus inicios para convertirse en uno de los talleres más destacados de la zona. Trabajamos con todas las marcas de vehículos y disponemos de una amplia variedad de repuestos. Además, brindamos a nuestros clientes diversas opciones de pago y nos esforzamos por ofrecer el mejor servicio de la región.</p>
+            <p class="d-none d-lg-block altfont">Nos comprometemos a respetar el tiempo de nuestros clientes y a ajustarnos a sus necesidades económicas. Además, ofrecemos un servicio de seguimiento para garantizar el óptimo rendimiento y prolongar la vida útil de sus vehículos.</p>
+            <button type="button" class="btn btn-dark btn-lg d-block btn1"><a class="text-decoration-none text-light" href="https://wa.me/54340215533672">Contacto</a></button>
+            
+            
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <!-- Fin section2 -->
+
+    <!-- Footer -->
+    <div class="container-fluid mt-2">
+      <div class="row p-5 bg-dark text-light">
+        <div class="col-xs-12 col-md-4 col-lg-4">
+          <p class="h3 font-monospace text-secondary"><a href="./index.html"
+            ><img src="../imagenes/logo6.png" class="img-logo ps-0" alt="Logo"
+          /></a></p>
+        </div>
+
+        <div class="col-xs-12 col-md-4 col-lg-4">
+          <div class="socials-container">
+            <a href="https://www.facebook.com/profile.php?id=100066912461804" class="social facebook"
+              ><svg height="1em" viewBox="0 0 320 512">
+                <path
+                  d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
+                ></path></svg></a>
+          
+            <a href="mailto:hugoambrosis@gmail.com" class="social google-plus">
+              <svg height="1em" viewBox="0 0 640 512">
+                <path
+                  d="M386.061 228.496c1.834 9.692 3.143 19.384 3.143 31.956C389.204 370.205 315.599 448 204.8 448c-106.084 0-192-85.915-192-192s85.916-192 192-192c51.864 0 95.083 18.859 128.611 50.292l-52.126 50.03c-14.145-13.621-39.028-29.599-76.485-29.599-65.484 0-118.92 54.221-118.92 121.277 0 67.056 53.436 121.277 118.92 121.277 75.961 0 104.513-54.745 108.965-82.773H204.8v-66.009h181.261zm185.406 6.437V179.2h-56.001v55.733h-55.733v56.001h55.733v55.733h56.001v-55.733H627.2v-56.001h-55.733z"
+                ></path>
+              </svg>
+            </a>
+          
+            <a href="https://www.instagram.com/ambrosisracing/" class="social instagram"
+              ><svg height="1em" viewBox="0 0 448 512">
+                <path
+                  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                ></path></svg></a>
+          </div>
+          
+        </div>
+
+      <div class="col-xs-12 col-md-4 col-lg-4">
+        <p class="h5 mb-3 text-uppercase font-monospace">Links</p>
+        <div class="mb-2">
+          <a href="" class="text-secondary text-decoration-none">Terminos & Condiciones</a>
+        </div>
+        <div class="mb-2">
+          <a href="" class="text-secondary text-decoration-none">Politica de privacidad</a>
+        </div>
+      </div>
+
+      <div class="col-xs-12">
+        <p class="text-light text-center mt-4 ms-5 ps-5"> Copyright - All rigths reserved 2024</p>
+      </div>
+    <!-- Fin Footer -->
+
+
+    <!-- scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./js/ambrosis.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- finscripts -->
+  </body>
+</html>
