@@ -12638,3 +12638,11 @@ body {
   flex-direction: column;
   align-items: start;
 }
+
+@media (max-width: 360px) and (max-height: 740px),(max-width: 280px) and (max-height: 653px) {
+  /* Reducir el tamaño del logo para 360x740 y 280x653 */
+  .navbar-brand img {
+    width: 150px; /* Ancho del logo para 280x653 */
+    height: auto; /* Mantener la proporción de aspecto */
+  }
+}
